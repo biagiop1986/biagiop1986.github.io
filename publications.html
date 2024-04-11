@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <title> Biagio Peccerillo </title>
+  </head>
+  <body>
+
+    <div class='container shadow-lg'>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark dark-bg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html"> Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./projects.html"> Projects </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link active" href="./publications.html"> Publications </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- END Navbar -->
+
+      <!-- Main content -->
+      <div class="container-fluid">
+        <div class="row align-items-start p-4 fluid">
+          <!-- LEFT SIDE -->
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <!-- General info -->
+                <div> <img src="img/profile.jpg" width="60%" height="60%" class="rounded-circle mx-auto d-block img-fluid"> </div>
+                  <div class="container mx-auto m-4">
+                    <h3> Biagio Peccerillo </h3>
+                    Postdoctoral Researcher <br/>
+                    <span class="unisi"> University of Siena </span>
+                  </div>
+
+                  <!-- Contact -->
+                  <div class="container mx-auto mt-4">
+                    <h4> Contacts </h4>
+                    peccerillo@diism.unisi.it
+                  </div>
+
+                  <!-- Social -->
+                  <div class="container mx-auto mt-4">
+                    <a href="https://www.linkedin.com/in/biagio-peccerillo-99210b28/"> <img src="img/logo/linkedin.svg" width="30" height="30" class="img-fluid"/> </a>
+                    <a href="https://scholar.google.it/citations?user=hIZPJRgAAAAJ&hl=en"> <img src="img/logo/googlescholar.svg" width="30" height="30" class="img-fluid"/> </a>
+                    <a href="https://www.scopus.com/authid/detail.uri?authorId=57196245184"> <img src="img/logo/scopus.svg" width="30" height="30" class="img-fluid"> </a>
+                    <a href="https://orcid.org/my-orcid?orcid=0000-0002-4998-0092"> <img src="img/logo/orcid.svg" width="30" height="30" class="img-fluid"> </a>
+                    <a href="https://github.com/biagiop1986"> <img src="img/logo/github.svg" width="30" height="30" class="img-fluid"/> </a>
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!-- End LEFT SIDE -->
+
+
+          <!-- RIGHT SIDE -->
+          <div class="col-lg-8">
+
+            <!-- About myself -->
+            <div class="container-fluid">
+              <h3> Publications </h3>
+
+              <br /><hr><h4> 2024 </h4>
+              <!-- ITEM -->
+              <div class="fluid-container mt-4">
+                <span class="publications-number"> [16] </span>
+                <span class="publications-title">
+                  <b> Integration of RISC-V Page Table Walk in gem5 SE Mode </b>
+                </span> <br/>
+                <span class="publications-author">
+                  M. Mannino, Y. Huang, <b> B. Peccerillo </b>, A. Medaglini, S. Bartolini.
+                  <br/>
+                </span>
+                <span class="publications-conference">
+                  Proceedings of the 16th Workshop on Rapid Simulation and Performance Evaluation for Design Optimization: Methods and Tools (RAPIDO'24), Munich, Germany, 2024, pp. 22-28.
+                </span> <br/>
+                <a class="pub-link" target="_blank" href="https://doi.org/10.1145/3642921.3642926"> <img src="./img/logo/paper.svg" width="20" height="30" class="img-fluid"/> </a>
+                <a class="pub-link" target="_blank" href="https://github.com/mircomannino/gem5/tree/rapido24"> <img src="./img/logo/github.svg" width="20" height="30" class="img-fluid"/> </a>
+              </div>
+              <!-- END ITEM -->
+
+              <br /><hr><h4> 2023 </h4>
+
+              <!-- ITEM -->
+              <div class="fluid-container mt-4">
+                <span class="publications-number"> [15] </span>
+                <span class="publications-title">
+                  <b> Analysis and Optimization of Direct Convolution Execution on Multi-Core Processors </b>
+                </span> <br/>
+                <span class="publications-author">
+                  M. Mannino, <b>B. Peccerillo</b>, A. Mondelli, S. Bartolini.
+                  <br/>
+                </span>
+                <span class="publications-conference">
+                  IEEE Access 11, 2023, pp. 57514-57528.
+                </span> <br/>
+                <a class="pub-link" target="_blank" href="https://ieeexplore.ieee.org/abstract/document/10144741"> <img src="./img/logo/paper.svg" width="20" height="30" class="img-fluid"/> </a>
+              </div>
+              <!-- END ITEM -->
+
+              <!-- ITEM -->
+              <div class="fluid-container mt-4">
+                <span class="publications-number"> [14] </span>
+                <span class="publications-title">
+                  <b> Energy and Performance Improvements for Convolutional Accelerators Using Lightweight Address Translation Support </b>
+                </span> <br/>
+                <span class="publications-author">
+                  M. Mannino, <b>B. Peccerillo</b>, A. Mondelli, S. Bartolini.
+                  <br/>
+                </span>
+                <span class="publications-conference">
+                  Proceedings of the 20th ACM International Conference on Computing Frontiers 2023 (CF 2023), Bologna, Italy, 2023, pp. 84-90.
+                </span> <br/>
+                <a class="pub-link" target="_blank" href="https://dl.acm.org/doi/10.1145/3587135.3592208"> <img src="./img/logo/paper.svg" width="20" height="30" class="img-fluid"/> </a>
+              </div>
+              <!-- END ITEM -->
+
+              <!-- ITEM -->
+              <div class="fluid-container mt-4">
+                <span class="publications-number"> [13] </span>
+                <span class="publications-title">
+                  <b> IXIAM: ISA EXtension for Integrated Accelerator Management </b>
+                </span> <br/>
+                <span class="publications-author">
+                  <b>B. Peccerillo</b>, E. Cheshmikhani, M. Mannino, A. Mondelli, S. Bartolini.
+                  <br/>
+                </span>
+                <span class="publications-conference">
+                  IEEE Access 11, 2023, pp. 33768-33791.
+                </span> <br/>
+                <a class="pub-link" target="_blank" href="https://ieeexplore.ieee.org/abstract/document/10091506"> <img src="./img/logo/paper.svg" width="20" height="30" class="img-fluid"/> </a>
+              </div>
+              <!-- END ITEM -->
+
+              <br /><hr><h4> 2022 </h4>
+
+              <!-- ITEM -->
+              <div class="fluid-container mt-4">
+                <span class="publications-number"> [12] </span>
+                <span class="publications-title">
+                  <b> A General Framework for Accelerator Management Based on ISA Extension </b>
+                </span> <br/>
+                <span class="publications-author">
+                  E. Cheshmikhani, <b>B. Peccerillo</b>, A. Mondelli, S. Bartolini.
+                  <br/>
+                </span>
+                <span class="publications-conference">
+                  IEEE Access 10, 2022, pp. 120702-120713.
+                </span> <br/>
+                <a class="pub-link" target="_blank" href="https://ieeexplore.ieee.org/document/9950481"> <img src="./img/logo/paper.svg" width="20" height="30" class="img-fluid"/> </a>
+              </div>
+              <!-- END ITEM -->
+
+              <!-- ITEM -->
+              <div class="fluid-container mt-4">
+                <span class="publications-number"> [11] </span>
+                <span class="publications-title">
+                  <b> A survey on hardware accelerators: Taxonomy, trends, challenges, and perspectives </b>
+                </span> <br/>
+                <span class="publications-author">
+                  <b> B. Peccerillo </b>, M. Mannino, A. Mondelli, S. Bartolini.
+                  <br/>
+                </span>
+                <span class="publications-conference">
+                  Journal of Systems Architecture, Volume 129, August 2022, 102561
+                </span> <br/>
+                <a class="pub-link" target="_blank" href="https://www.sciencedirect.com/science/article/pii/S1383762122001138"> <img src="./img/logo/paper.svg" width="20" height="30" class="img-fluid"/> </a>
+              </div>
+              <!-- END ITEM -->
+
+              <!-- ITEM -->
+              <div class="fluid-container mt-4">
+                <span class="publications-number"> [10] </span>
+                <span class="publications-title">
+                  <b> Applying Intel's oneAPI to a machine learning case study </b>
+                </span> <br/>
+                <span class="publications-author">
+                  P.A. Mart&iacute;nez, <b> B. Peccerillo </b>, S. Bartolini, J.M. Garc&iacute;a, G. Bernab&eacute;.
+                  <br/>
+                </span>
+                <span class="publications-conference">
+                  Concurrency and Computation Practice and Experience 34(13), 2022, e6917.
+                </span> <br/>
+                <a class="pub-link" target="_blank" href="https://onlinelibrary.wiley.com/doi/10.1002/cpe.6917"> <img src="./img/logo/paper.svg" width="20" height="30" class="img-fluid"/> </a>
+              </div>
+              <!-- END ITEM -->
+
+              <!-- ITEM -->
+              <div class="fluid-container mt-4">
+                <span class="publications-number"> [9] </span>
+                <span class="publications-title">
+                  <b> Performance portability in a real world application: PHAST applied to Caffe </b>
+                </span> <br/>
+                <span class="publications-author">
+                  P.A. Mart&iacute;nez, <b> B. Peccerillo </b>, S. Bartolini, J.M. Garc&iacute;a, G. Bernab&eacute;.
+                  <br/>
+                </span>
+                <span class="publications-conference">
+                  International Journal of High Performance Computing Applications 36(3), 2022, pp. 419-439.
+                </span> <br/>
+                <a class="pub-link" target="_blank" href="https://journals.sagepub.com/doi/abs/10.1177/10943420221077107"> <img src="./img/logo/paper.svg" width="20" height="30" class="img-fluid"/> </a>
+              </div>
+              <!-- END ITEM -->
+
+              <!-- ITEM -->
+              <div class="fluid-container mt-4">
+                <span class="publications-number"> [8] </span>
+                <span class="publications-title">
+                  <b> Flexible task-DAG management in PHAST Library: Data-parallel tasks and orchestration support for heterogeneous systems</b>
+                </span> <br/>
+                <span class="publications-author">
+                  <b> B. Peccerillo </b>, S. Bartolini.
+                  <br/>
+                </span>
+                <span class="publications-conference">
+                  Concurrency and Computation Practice and Experience 34(2), 2022, e5842.
+                </span> <br/>
+                <a class="pub-link" target="_blank" href="https://onlinelibrary.wiley.com/doi/10.1002/cpe.5842"> <img src="./img/logo/paper.svg" width="20" height="30" class="img-fluid"/> </a>
+              </div>
+              <!-- END ITEM -->
+
+              <br /><hr><h4> 2019 </h4>
+
+              <!-- ITEM -->
+              <div class="fluid-container mt-4">
+                <span class="publications-number"> [7] </span>
+                <span class="publications-title">
+                  <b> Task-DAG Support in Single-Source PHAST Library: Enabling Flexible Assignment of Tasks to CPUs and GPUs in Heterogeneous Architectures </b>
+                </span> <br/>
+                <span class="publications-author">
+                  <b> B. Peccerillo </b>, S. Bartolini.
+                  <br/>
+                </span>
+                <span class="publications-conference">
+                  Proceedings of the 10th International Workshop on Programming Models and Applications for Multicores and Manycores (PMAM), Washington DC, United States, 2019, pp. 91-100.
+                </span> <br/>
+                <a class="pub-link" target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3303084.3309496"> <img src="./img/logo/paper.svg" width="20" height="30" class="img-fluid"/> </a>
+              </div>
+              <!-- END ITEM -->
+
+              <!-- ITEM -->
+              <div class="fluid-container mt-4">
+                <span class="publications-number"> [6] </span>
+                <span class="publications-title">
+                  <b> Single-Source Library for Enabling Seamless Assignment of Data-parallel Task-DAGs to CPUs and GPUs in Heterogeneous Architectures </b>
+                </span> <br/>
+                <span class="publications-author">
+                  <b> B. Peccerillo </b>, S. Bartolini.
+                  <br/>
+                </span>
+                <span class="publications-conference">
+                  Proceedings of the 10th and 8th Workshop on Parallel Programming and Run-Time Management Techniques for Many-core Architectures and Design Tools and Architectures for Multicore Embedded Computing Platforms (PARMA-DITAM), Valencia, Spain, 2019, pp. 3:1-3:4.
+                </span> <br/>
+                <a class="pub-link" target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3310411.3310416"> <img src="./img/logo/paper.svg" width="20" height="30" class="img-fluid"/> </a>
+              </div>
+              <!-- END ITEM -->
+
+              <!-- ITEM -->
+              <div class="fluid-container mt-4">
+                <span class="publications-number"> [5] </span>
+                <span class="publications-title">
+                  <b> Using Wearable Haptics for Thermal Discrimination in Virtual Reality Scenarios </b>
+                </span> <br/>
+                <span class="publications-author">
+                  G. Gioioso, M. Pozzi, M. Aurilio, <b> B. Peccerillo </b>, G. Spagnoletti, D. Prattichizzo
+                  <br/>
+                </span>
+                <span class="publications-conference">
+                  In: Kajimoto H., Lee D., Kim S.Y., Konyo M., Kyung K.U. (eds) Haptic Interaction. AsiaHaptics 2018. Lecture Notes in Electrical Engineering, vol 535. Springer, Singapore, 2019.
+                </span> <br/>
+                <a class="pub-link" target="_blank" href="https://link.springer.com/chapter/10.1007/978-981-13-3194-7_32"> <img src="./img/logo/paper.svg" width="20" height="30" class="img-fluid"/> </a>
+              </div>
+              <!-- END ITEM -->
+
+              <!-- ITEM -->
+              <div class="fluid-container mt-4">
+                <span class="publications-number"> [4] </span>
+                <span class="publications-title">
+                  <b> Parallel Bitsliced AES through PHAST: a Single-Source High-Performance Library for Multi-Cores and GPUs </b>
+                </span> <br/>
+                <span class="publications-author">
+                  <b> B. Peccerillo </b>, S. Bartolini, &Ccedil;. K. Ko&ccedil;.
+                  <br/>
+                </span>
+                <span class="publications-conference">
+                  Journal of Cryptographic Engineering 9(2), 2019, pp. 159-171.
+                </span> <br/>
+                <a class="pub-link" target="_blank" href="https://link.springer.com/article/10.1007/s13389-017-0175-4"> <img src="./img/logo/paper.svg" width="20" height="30" class="img-fluid"/> </a>
+              </div>
+              <!-- END ITEM -->
+
+              <br /><hr><h4> 2018 </h4>
+
+              <!-- ITEM -->
+              <div class="fluid-container mt-4">
+                <span class="publications-number"> [3] </span>
+                <span class="publications-title">
+                  <b> Parallel Programming in Cyber-Physical Systems </b>
+                </span> <br/>
+                <span class="publications-author">
+                  <b> B. Peccerillo </b>, S. Bartolini. 
+                  <br/>
+                </span>
+                <span class="publications-conference">
+                  In: &Ccedil;. K. Ko&ccedil; (eds.) Cyber-Physical Systems Security, pp. 111-134, Springer International Publishing, Cham, 2018.
+                </span> <br/>
+                <a class="pub-link" target="_blank" href="https://link.springer.com/chapter/10.1007/978-3-319-98935-8_6"> <img src="./img/logo/paper.svg" width="20" height="30" class="img-fluid"/> </a>
+              </div>
+              <!-- END ITEM -->
+
+              <br /><hr><h4> 2017 </h4>
+
+              <!-- ITEM -->
+              <div class="fluid-container mt-4">
+                <span class="publications-number"> [2] </span>
+                <span class="publications-title">
+                  <b> PHAST Library &ndash; Enabling Single-Source and High Performance Code for GPUs and Multi-cores </b>
+                </span> <br/>
+                <span class="publications-author">
+                  <b> B. Peccerillo </b>, S. Bartolini.
+                  <br/>
+                </span>
+                <span class="publications-conference">
+                  2017 International Conference on High Performance Computing &amp; Simulation (HPCS), Genova, Italy, 2017, pp. 715-718.
+                </span> <br/>
+                <a class="pub-link" target="_blank" href="https://ieeexplore.ieee.org/document/8035148"> <img src="./img/logo/paper.svg" width="20" height="30" class="img-fluid"/> </a>
+              </div>
+              <!-- END ITEM -->
+
+              <!-- ITEM -->
+              <div class="fluid-container mt-4">
+                <span class="publications-number"> [1] </span>
+                <span class="publications-title">
+                  <b> Procedimento per la Generazione Automatica di Codice di Calcolo Parallelo. </b>
+                </span> <br/>
+                <span class="publications-author">
+                  S. Bartolini, <b> B. Peccerillo </b>, inventori; Universit&agrave; degli Studi di Siena, titolare.
+                  <br/>
+                </span>
+                <span class="publications-conference">
+                  Italia brevetto IT 102017000082213. 2017 luglio 19.
+                </span> <br/>
+              </div>
+              <!-- END ITEM -->
+
+            </div>
+
+            <!-- END RIGHT SIDE -->
+          </div>
+        </div>
+      </div>
+
+        <br /><footer class="fixed-bottom text-center container"> <div class="dark-bg footer-text"> © Copyright 2024 Biagio Peccerillo. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener" class="footer-text footer-link">GitHub Pages</a>. </div> </footer>
+    </div>
+  </body>
+</html>

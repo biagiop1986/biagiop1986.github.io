@@ -28,11 +28,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link active" href="./index.html"> Home </a>
-            </li>
             <li class="nav-item">
-              <a class="nav-link" href="./projects.html"> Projects </a>
+              <a class="nav-link" href="./index.html"> Home </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link active" href="./projects.html"> Projects </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./publications.html"> Publications </a>
@@ -83,62 +83,79 @@
 
             <!-- About myself -->
             <div class="container-fluid">
-              <h3> About Myself </h3>
-              <p>
-                I'm a Postdoctoral Researcher at the <a href="https://www.diism.unisi.it/it">Department of Information
-                Engineering and Mathematical Sciences</a>, at the <a href="https://www.unisi.it/">University of Siena</a>.
-                
-                I am the main developer and maintainer of <a href="https://www.phast-library.com">PHAST Library</a>, a 
-                high-level modern C++ programming framework for multi-core CPUs and NVIDIA GPUs.
+              <h3> Projects </h3>
 
-                My research interests focus on hardware accelerators, architectural simulation, cross-platform 
-                high-level programming mechanisms, heterogeneous architectures, GPGPU, machine learning acceleration, 
-                parallel and distributed algorithms, haptic algorithms, and virtual/augmented reality environments.
-              </p>
+              <!-- PHAST Item -->
+              <div class="fluid-container ">
+                <div class="row align-items-start fluid">
+                    <div class="col-lg-6">
+                      <span class="projects-title"> PHAST Library </span> </br>
+                      <span class="projects-description">
+                          PHAST Library is a freely available, productivity-oriented,
+                          single-source modern C<span style="font-family: monospace;">&#43;&#43;</span>
+                          programming framework for heterogeneous architectures. It allows 
+                          programmers to write high-performance code for multi-core CPUs and
+                          NVIDIA GPUs. It is based on multi-dimensional containers,
+                          hierarchical parallelism, and parallelization parameters that
+                          allow separating performance tuning from application code.
+                      </span> </br> 
+                      <!-- Resources -->
+                      <div class="container mt-2 p-0">
+                          <a href="https://www.phast-library.com" target="_blank"
+                          class="projects-link">
+                          <img src="./img/logo/website.svg" width="30", height="30" class="img-fluid"/>
+                           Website 
+                          </a>
+                      </div>
+                      <div class="container mt-2 p-0">
+                          <a href="https://ieeexplore.ieee.org/document/8410014" target="_blank"
+                          class="projects-link">
+                          <img src="./img/logo/paper.svg" width="30", height="30" class="img-fluid"/>
+                           Main paper
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-lg-6">
+                      <img src="./img/PHAST.png" class="img-thumbnail">
+                  </div>
+              </div>                
             </div>
-            <!-- END About myself -->
+            <hr>
+            <!-- END PHAST Item -->
 
-            <!-- Work experience -->
-            <div class="container-fluid mx-auto mt-4">
-              <h3> Current Position </h3>
-                <div><span class="custom-header"> Postdoctoral Researcher </span> <span class="custom-sub-header"> [2019 - ] </span></div>
-                  <div class="custom-body"> <a href="https://www.unisi.it/">University of Siena</a>, Siena, Italy </div>
-                    <div class="custom-detail"></div>
-                      <br />
+              <!-- IXIAM Item -->
+              <div class="fluid-container ">
+                <div class="row align-items-start fluid">
+                    <div class="col-lg-6">
+                      <span class="projects-title"> IXIAM </span> </br>
+                      <span class="projects-description">
+                        ISA eXtension for Integrated Accelerator Management (IXIAM) is
+                        a HW-SW framework that allow controlling a wide variety of
+                        integrated accelerators directly from the core. It features
+                        a few RISC-V instructions to achieve reservation, work offloading,
+                        data transfer and synchronization, a thin hardware layer, and
+                        a user-space interrupt mechanism.
+                      </span> </br> 
+                      <!-- Resources -->
+                      <div class="container mt-2 p-0">
+                          <a href="https://ieeexplore.ieee.org/document/10091506" target="_blank"
+                          class="projects-link">
+                          <img src="./img/logo/paper.svg" width="30", height="30" class="img-fluid"/>
+                           Main paper
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-lg-6">
+                      <img src="./img/IXIAM.png" class="img-thumbnail">
+                  </div>
+              </div>                
+            </div>
+            <hr>
+            <!-- END IXIAM Item -->
 
-              <h3> Past Positions </h3>
-                <div><span class="custom-header"> Research Scholarship Holder </span> <span class="custom-sub-header"> [2016 - 2019] </span></div>
-                  <div class="custom-body"> <a href="https://www.unisi.it/">University of Siena</a>, Siena, Italy </div>
-                    <div class="custom-detail"></div>
-                      <br />
 
-                <div><span class="custom-header"> Software Architect </span> <span class="custom-sub-header"> [2012 - 2016] </span></div>
-                  <div class="custom-body"> <a href="https://www.list-group.com/">List SpA</a>, Pisa, Italy </div>
-                    <div class="custom-detail"></div>
-                      <br />
 
-              <h3> Education </h3>
-                <div><span class="custom-header"> PhD, Computing Systems</span> <span class="custom-sub-header"> [2020] </span></div>
-                  <div class="custom-body"> <a href="https://www.diism.unisi.it/it">Department of Information Engineering and Mathematics</a> </div>
-                  <div class="custom-body"> <a href="https://www.unisi.it/">University of Siena</a>, Siena, Italy </div>
-                    <div class="custom-detail">Area: Productivity-oriented programming solutions for heterogeneous systems</div>
-                    <div class="custom-detail">Thesis Title: <i>PHAST Library &ndash; a Productive Solution to Program Heterogeneity</i> </div>
-                    <div class="custom-detail">Area of Study: Heterogeneous Programming, Parallel Architectures, GPGPU</div>
-                      <br />
 
-                <div><span class="custom-header"> Master's degree </span> <span class="custom-sub-header"> <i>cum laude</i> [2011] </span></div>
-                  <div class="custom-body"> <a href="https://www.unisi.it/">University of Siena</a>, Siena, Italy </div>
-                    <div class="custom-detail">Information Engineering</div>
-                    <div class="custom-detail">Thesis Title: <i>Realizzazione di una libreria C<span style="font-family: monospace;">&#43;&#43;</span> in stile STL per la parallelizzazione
-                        portabile del pricing di algoritmi finanziari complessi</i>
-                    </div>
-                      <br />
-
-                <div><span class="custom-header"> Bachelor's degree </span> <span class="custom-sub-header"> [2008] </span></div>
-                  <div class="custom-body"> <a href="https://www.unisi.it/">University of Siena</a>, Siena, Italy </div>
-                    <div class="custom-detail">Information Engineering</div>
-                    <div class="custom-detail">Thesis Title: <i>Progetto di un sistema di controllo in retroazione per il quadcopter X-Ufo</i> </div>
-                      <br />
             </div>
 
             <!-- END RIGHT SIDE -->
