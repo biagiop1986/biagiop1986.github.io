@@ -29,6 +29,22 @@ a:link {
 }
 
 /********************************************************************************/
+/* SCREENSIZE-DEPENDENT OPTIMIZATIONS */
+
+/* big screens */
+@media screen and (min-width: 992px)  {
+    .small-screen-break { display: none; }
+    .img-profile-scaled { width: 60%; height: 60%; }
+}
+
+/* low-to-medium screens */
+@media screen and (max-width: 991px) {
+    .img-profile-scaled { width: 60%; height: 60%; }
+    .footer-text { font-size: 12px; }
+    .project-link-desc { display: none; }
+}
+
+/********************************************************************************/
 
 /* INDEX */
 span.custom-header {
@@ -97,5 +113,3 @@ a.projects-link {
     color: purple;
 }
 /******************************************************************************/
-
-/* FOOTER */
