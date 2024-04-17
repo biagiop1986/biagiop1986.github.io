@@ -75,7 +75,7 @@ span.publications-number {
 }
 span.publications-author {}
 span.publications-title {}
-span.publications.conference {}
+span.publications-where {}
 a.pub-link:hover    { text-decoration: none; color: black; }
 a.pub-link:visited  { text-decoration: none; color: black; }
 a.pub-link:active   { text-decoration: none; color: black; }
@@ -87,6 +87,43 @@ a.pub-link {
     font-weight: bold;
     /* border: 1px solid black; */
     border-radius: 3%;
+}
+
+.journal-item {
+    display: inline-block;
+    color: rgb(47, 79, 79);
+    background-color: rgb(100, 149, 237);
+    border-radius: 6px;
+    box-shadow: 2px 2px 3px grey;
+    padding: 1px 4px 1px 4px;
+    margin-right: 10px;
+}
+.conference-item {
+    display: inline-block;
+    color: rgb(47, 79, 79);
+    background-color: rgb(147, 112, 219);
+    border-radius: 6px;
+    box-shadow: 2px 2px 3px grey;
+    padding: 1px 4px 1px 4px;
+    margin-right: 10px;
+}
+.chapter-item {
+    display: inline-block;
+    color: rgb(47, 79, 79);
+    background-color: rgb(144, 238, 144);
+    border-radius: 6px;
+    box-shadow: 2px 2px 3px grey;
+    padding: 1px 4px 1px 4px;
+    margin-right: 10px;
+}
+.other-item {
+    display: inline-block;
+    color: rgb(47, 79, 79);
+    background-color: rgb(255, 140, 140);
+    border-radius: 6px;
+    box-shadow: 2px 2px 3px grey;
+    padding: 1px 4px 1px 4px;
+    margin-right: 10px;
 }
 
 /******************************************************************************/
