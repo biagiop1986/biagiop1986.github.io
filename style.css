@@ -42,6 +42,7 @@ a:link {
     .img-profile-scaled { width: 60%; height: 60%; }
     .footer-text { font-size: 12px; }
     .project-link-desc { display: none; }
+    .no-right-margin { margin-right: 0; } 
 }
 
 /********************************************************************************/
