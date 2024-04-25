@@ -39,10 +39,11 @@ a:link {
 
 /* low-to-medium screens */
 @media screen and (max-width: 991px) {
-    .img-profile-scaled { width: 60%; height: 60%; }
+    .img-profile-scaled { width: 40%; height: 40%; }
     .footer-text { font-size: 12px; }
     .project-link-desc { display: none; }
     .no-right-margin { margin-right: 0; } 
+    .nav-margin { margin-left: 20px; }
 }
 
 /********************************************************************************/
