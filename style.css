@@ -14,6 +14,7 @@
 .unisi { color: rgb(70, 70, 108); }
 
 /* General */
+b { color: rgb(10, 10, 90); }
 h3 { color: rgb(10, 10, 90); }
 h4 {
     color: rgb(10, 10, 90);
@@ -35,6 +36,7 @@ a:link {
 @media screen and (min-width: 992px)  {
     .small-screen-break { display: none; }
     .img-profile-scaled { width: 60%; height: 60%; }
+    .project-link-desc { color: rgb(10, 10, 90); }
 }
 
 /* low-to-medium screens */
@@ -43,18 +45,19 @@ a:link {
     .footer-text { font-size: 12px; }
     .project-link-desc { display: none; }
     .no-right-margin { margin-right: 0; } 
+    .nav-margin { margin-left: 20px; }
 }
 
 /********************************************************************************/
 
 /* INDEX */
-span.custom-header {
+.custom-header {
     color: rgb(10, 10, 90);
     font-size: 20px;
     font-weight: bold;
 }
 
-span.custom-sub-header {
+.custom-sub-header {
     font-size: 18px;
 }
 
