@@ -1,0 +1,154 @@
+/* Navbar and Footer*/
+.dark-bg { background-color: rgb(20, 54, 54); }
+.footer-text { color:rgba(255, 255, 255, .55) }
+.footer-link:link { 
+    text-decoration: none;
+    color: rgba(255, 255, 255, .40)
+}
+.footer-link:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .75)
+}
+
+/* Left pane */
+.unisi { color: rgb(61, 94, 94); }
+
+/* General */
+b { color: rgb(7, 64, 64); }
+h3 { color: rgb(7, 64, 64); }
+h4 { color: rgb(7, 64, 64); }
+
+a:hover {
+    text-decoration: none;
+    color: rgb(19, 79, 79);
+}
+a:link {
+    text-decoration: none;
+    color: rgb(42, 87, 87);
+}
+
+/********************************************************************************/
+/* SCREENSIZE-DEPENDENT OPTIMIZATIONS */
+
+/* big screens */
+@media screen and (min-width: 992px)  {
+    .small-screen-break { display: none; }
+    .img-profile-scaled { width: 60%; height: 60%; }
+    .project-link-desc { color: rgb(7, 64, 64); }
+}
+
+/* low-to-medium screens */
+@media screen and (max-width: 991px) {
+    .img-profile-scaled { width: 40%; height: 40%; }
+    .footer-text { font-size: 12px; }
+    .project-link-desc { display: none; }
+    .no-right-margin { margin-right: 0; } 
+    .nav-margin { margin-left: 20px; }
+}
+
+/********************************************************************************/
+
+/* INDEX */
+.custom-header {
+    color: rgb(7, 64, 64);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.custom-sub-header {
+    font-size: 18px;
+}
+
+div.custom-body {
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+div.custom-detail {
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+/******************************************************************************/
+
+/* PUBLICATIONS */
+span.publications-number {
+    font-size: 19px;
+}
+span.publications-author {}
+span.publications-title {}
+span.publications-where {}
+a.pub-link:hover    { text-decoration: none; color: black; }
+a.pub-link:visited  { text-decoration: none; color: black; }
+a.pub-link:active   { text-decoration: none; color: black; }
+a.pub-link {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5%;
+    margin-right: 10px;
+    font-weight: bold;
+    /* border: 1px solid black; */
+    border-radius: 3%;
+}
+
+.journal-item {
+    display: inline-block;
+    color: rgb(47, 79, 79);
+    background-color: rgb(100, 149, 237);
+    border-radius: 6px;
+    box-shadow: 2px 2px 3px grey;
+    padding: 1px 4px 1px 4px;
+    margin-right: 10px;
+}
+.conference-item {
+    display: inline-block;
+    color: rgb(47, 79, 79);
+    background-color: rgb(147, 112, 219);
+    border-radius: 6px;
+    box-shadow: 2px 2px 3px grey;
+    padding: 1px 4px 1px 4px;
+    margin-right: 10px;
+}
+.chapter-item {
+    display: inline-block;
+    color: rgb(47, 79, 79);
+    background-color: rgb(144, 238, 144);
+    border-radius: 6px;
+    box-shadow: 2px 2px 3px grey;
+    padding: 1px 4px 1px 4px;
+    margin-right: 10px;
+}
+.other-item {
+    display: inline-block;
+    color: rgb(47, 79, 79);
+    background-color: rgb(255, 140, 140);
+    border-radius: 6px;
+    box-shadow: 2px 2px 3px grey;
+    padding: 1px 4px 1px 4px;
+    margin-right: 10px;
+}
+
+/******************************************************************************/
+
+/* PROJECTS */
+span.projects-title {
+    font-size: 23px;
+    font-weight: bold;
+}
+a.projects-link:hover    { text-decoration: none; color: black; }
+a.projects-link:visited  { text-decoration: none; color: black; }
+a.projects-link:active   { text-decoration: none; color: black; }
+a.projects-link {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    margin-top: 3%;
+    padding: 1%;
+    font-weight: bold;
+    /* border: 1px solid black; */
+    border-radius: 3%;
+}
+
+.src-code {
+    color: purple;
+}
+/******************************************************************************/
