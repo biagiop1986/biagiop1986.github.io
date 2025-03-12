@@ -161,4 +161,9 @@ a.projects-link {
 .src-code {
     color: purple;
 }
+
+p.projects-description {
+    text-align: justify;
+}
+
 /******************************************************************************/
