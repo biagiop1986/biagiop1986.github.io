@@ -11,7 +11,8 @@
 }
 
 /* Left pane */
-.unisi { color: rgb(94, 61, 94); }
+.affiliation { color: rgb(94, 61, 94); }
+.extra-space-top { margin-top: 5px; display: inline-block; }
 
 /* General */
 b { color: rgb(64, 7, 64); }
@@ -29,6 +30,11 @@ a:link {
 
 /********************************************************************************/
 /* SCREENSIZE-DEPENDENT OPTIMIZATIONS */
+
+/* very large screens */
+@media screen and (max-width: 1399px)  {
+    .very-large-screen-break { display: none; }
+}
 
 /* big screens */
 @media screen and (min-width: 992px)  {
@@ -67,6 +73,10 @@ div.custom-body {
 div.custom-detail {
     font-size: 16px;
     padding-left: 20px;
+}
+
+p.bio {
+    text-align: justify;
 }
 
 /******************************************************************************/
