@@ -24,8 +24,7 @@ function pickColorOfDay()
       style_sheet = 'style_red.css';
     }
 
-    $('head').append('<!-- Custom CSS -->');
-    $('head').append('<link rel="stylesheet" type="text/css" href="' + style_sheet + '" />');
+    $('link#custom_style').attr('href', style_sheet);
 }
 
 pickColorOfDay();

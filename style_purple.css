@@ -28,6 +28,8 @@ a:link {
     color: rgb(87, 42, 87);
 }
 
+.img-profile-scaled { width: 60%; height: 60%; }
+
 /********************************************************************************/
 /* SCREENSIZE-DEPENDENT OPTIMIZATIONS */
 
